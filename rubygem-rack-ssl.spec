@@ -37,3 +37,15 @@ middleware) into a single method call.
 %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/*
 %{ruby_gemdir}/specifications/%{rbname}-%{version}.gemspec
 %doc %{ruby_gemdir}/doc/%{rbname}-%{version}
+
+
+%changelog
+* Wed Feb 15 2012 Per Øyvind Karlsen <peroyvind@mandriva.org> 1.3.2-2
++ Revision: 774161
+- mass rebuild of ruby packages against ruby 1.9.1
+
+* Mon Jan 30 2012 Crispin Boylan <crisb@mandriva.org> 1.3.2-1
++ Revision: 769793
+- Initial mdv package
+- Created package structure for 'rubygem-rack-ssl'.
+
