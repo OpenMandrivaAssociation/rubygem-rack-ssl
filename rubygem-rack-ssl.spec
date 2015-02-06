@@ -5,7 +5,7 @@ Summary:	A modular Ruby webserver interface
 Name:		rubygem-%{rbname}
 
 Version:	1.3.2
-Release:	2
+Release:	3
 Group:		Development/Ruby
 License:	MIT
 URL:		http://rack.rubyforge.org
